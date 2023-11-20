@@ -1,15 +1,6 @@
 version: '3'
 
 services:
-  next_app:
-    build:
-      context: ./site
-      dockerfile: Dockerfile
-    networks:
-      - citrolux_network
-    ports:
-      - "3030:3030"
-
   strapi:
     build:
       context: ./strapi
@@ -21,6 +12,16 @@ services:
     volumes:
       - ./uploads:/app/public/uploads
       - ./tmp:/app/.tmp
+
+  next_app:
+    build:
+      context: ./site
+      dockerfile: Dockerfile
+    networks:
+      - citrolux_network
+    ports:
+      - "3030:3030"
+
 
 networks:
   citrolux_network:
