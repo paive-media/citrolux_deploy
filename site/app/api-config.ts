@@ -1,7 +1,7 @@
 const apiConfig = {
-    graphql_url: 'https://strapi:1337/graphql',
-    rest_url: 'https//strapi:1337/api',
-    base_url: 'https://strapi:1337'
+    graphql_url: 'https://citrolux.ru/graphql',
+    rest_url: 'https://citrolux.ru/api',
+    base_url: 'https://citrolux.ru'
   };
 
   export default apiConfig
