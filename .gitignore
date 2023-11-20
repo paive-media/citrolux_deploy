@@ -11,6 +11,3 @@
 /strapi/.cache
 /strapi/public
 /strapi/.tmp
-
-/uploads
-/tmp
