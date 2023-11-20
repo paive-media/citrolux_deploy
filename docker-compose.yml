@@ -12,6 +12,7 @@ services:
     volumes:
       - ./uploads:/app/public/uploads
       - ./tmp:/app/.tmp
+    restart: always
 
   next_app:
     build:
