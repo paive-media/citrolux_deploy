@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_item_logo_with_urls",
+  "info": {
+    "displayName": "logo_with_url"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "blok_o_produktes",
+  "info": {
+    "singularName": "blok-o-produkte",
+    "pluralName": "blok-o-produktes",
+    "displayName": "Блок \"О продукте\"",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_title": {
+      "type": "richtext"
+    },
+    "about_product": {
+      "type": "richtext"
+    },
+    "product_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "product_description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon_description": {
+      "type": "richtext"
+    },
+    "drop_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "left_icon": {
+      "displayName": "icon_with_description",
+      "type": "component",
+      "repeatable": false,
+      "component": "item.icon-with-description"
+    },
+    "center_icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.icon-with-description"
+    },
+    "right_icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.icon-with-description"
+    }
+  }
+}

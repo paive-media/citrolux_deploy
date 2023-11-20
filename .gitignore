@@ -1,0 +1,16 @@
+/public/
+!/site/.idea/
+
+/site/node_modules
+/site/.idea
+/site/.next
+
+/strapi/node_modules
+/strapi/.idea
+/strapi/build
+/strapi/.cache
+/strapi/public
+/strapi/.tmp
+
+/uploads
+/tmp

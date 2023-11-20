@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "blok_usilenie_imuunnoj_zashhities",
+  "info": {
+    "singularName": "blok-usilenie-imuunnoj-zashhity",
+    "pluralName": "blok-usilenie-imuunnoj-zashhities",
+    "displayName": "Блок \"Усиление иммунной защиты\"",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "molecule_1": {
+      "type": "richtext"
+    },
+    "molecule_1_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "molecule_2": {
+      "type": "richtext"
+    },
+    "molecule_2_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description_item_1": {
+      "type": "richtext"
+    },
+    "description_item_2": {
+      "type": "richtext"
+    },
+    "description_item_3": {
+      "type": "richtext"
+    }
+  }
+}

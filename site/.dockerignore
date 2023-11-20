@@ -1,0 +1,10 @@
+Dockerfile
+.dockerignore
+
+.idea
+
+node_modules
+.next
+
+README.md
+

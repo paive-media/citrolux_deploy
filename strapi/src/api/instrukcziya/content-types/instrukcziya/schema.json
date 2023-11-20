@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "instrukcziyas",
+  "info": {
+    "singularName": "instrukcziya",
+    "pluralName": "instrukcziyas",
+    "displayName": "Инструкция"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instruction_file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

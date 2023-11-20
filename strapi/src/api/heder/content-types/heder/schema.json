@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "heders",
+  "info": {
+    "singularName": "heder",
+    "pluralName": "heders",
+    "displayName": "Хэдер",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "site_logo_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "product_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "menu_item_1": {
+      "type": "string"
+    },
+    "menu_item_2": {
+      "type": "string"
+    },
+    "menu_item_3": {
+      "type": "string"
+    },
+    "menu_item_4": {
+      "type": "string"
+    }
+  }
+}

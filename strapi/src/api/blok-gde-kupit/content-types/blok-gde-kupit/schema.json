@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "blok_gde_kupits",
+  "info": {
+    "singularName": "blok-gde-kupit",
+    "pluralName": "blok-gde-kupits",
+    "displayName": "Блок \"Где Купить?\"",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pharmacy_list": {
+      "displayName": "logo_with_url",
+      "type": "component",
+      "repeatable": true,
+      "component": "item.logo-with-url"
+    },
+    "epharmacy_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.logo-with-url"
+    },
+    "marketplace_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.logo-with-url"
+    }
+  }
+}
