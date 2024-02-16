@@ -45,7 +45,7 @@ const HowItWorks: FC = async () => {
                             height={0}
                             sizes={"100vw"}
                             className={"w-full"}
-                            src={'/images/hotItWorks/grapefruit.webp'}
+                            src={'/images/howItWorks/grapefruit.webp'}
                             alt={'grapefruit_image'}
                         />
                     </div>
