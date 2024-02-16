@@ -6,7 +6,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'citrolux.ru',
             port: '',
-            pathname: '/cms/uploads/**',
+            pathname: '/images/**',
           },
         ],
         formats: []

@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "generate-classes": "node ./class-parser.js",
     "start": "next start",
     "lint": "next lint"
   },
