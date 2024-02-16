@@ -1,10 +1,8 @@
 "use client";
 
-import {FC, useState, MouseEvent, useEffect} from "react";
+import {FC, useState, MouseEvent} from "react";
 import Image from "next/image";
-import {getSliderImages} from "../api/sliderApi";
-import apiConfig from "../api-config";
-import {Loading} from "./Loading";
+
 
 const Slider: FC = () => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -30,7 +28,9 @@ const Slider: FC = () => {
         event.preventDefault();
         if (activeSlide < sliderImages.length - 1) {
             setActiveSlide((prev) => prev + 1);
-        } else [setActiveSlide(0)];
+        } else {
+            setActiveSlide(0)
+        }
     };
 
     return (
