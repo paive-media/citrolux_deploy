@@ -15,7 +15,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en">
+        <html lang="ru">
         <body className={inter.className}>
         <Script id="metrika-counter" strategy="afterInteractive">
             {`(function (m, e, t, r, i, k, a) {
